@@ -6,11 +6,16 @@ import { routes as appRoutes } from "./routes";
 import Layout from "./components/Layout";
 
 function App() {
-  // define theme
-
+  // define theme using material ui dark theme
   const theme = createTheme({
     palette: {
-      mode: "dark"
+      mode: "dark",
+      primary: {
+        main: "#3f51b5",
+      },
+      secondary: {
+        main: "#f50057",
+      },
     },
   });
 
