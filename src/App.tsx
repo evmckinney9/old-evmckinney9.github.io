@@ -7,20 +7,10 @@ import Layout from "./components/Layout";
 
 function App() {
   // define theme
+
   const theme = createTheme({
     palette: {
-      primary: {
-        main: "#4db6ac",
-        light: "#82e9de",
-        dark: "#00867d",
-        contrastText: "#000",
-      },
-      secondary: {
-        main: "#4db6ac",
-        light: "#82e9de",
-        dark: "#00867d",
-        contrastText: "#000",
-      },
+      mode: "dark"
     },
   });
 

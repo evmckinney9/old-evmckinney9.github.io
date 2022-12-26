@@ -29,7 +29,7 @@ const Navbar: FC = (): ReactElement => {
       sx={{
         width: "100%",
         height: "auto",
-        backgroundColor: "secondary.main",
+        backgroundColor: "secondary.dark",
       }}
     >
       <Container maxWidth="xl">

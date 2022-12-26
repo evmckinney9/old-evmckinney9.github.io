@@ -7,7 +7,7 @@ export const Footer: FC = (): ReactElement => {
       sx={{
         width: "100%",
         height: "auto",
-        backgroundColor: "secondary.main",
+        backgroundColor: "secondary.dark",
         paddingTop: "1rem",
         paddingBottom: "1rem",
       }}
@@ -16,7 +16,7 @@ export const Footer: FC = (): ReactElement => {
         <Grid container direction="column" alignItems="center">
           <Grid item xs={12}>
             <Typography color="black" variant="h5">
-              React Starter App
+              the greatest portfolio site you've ever seen
             </Typography>
           </Grid>
           <Grid item xs={12}>
