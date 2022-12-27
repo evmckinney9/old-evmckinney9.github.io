@@ -11,10 +11,14 @@ function App() {
     palette: {
       mode: "dark",
       primary: {
-        main: "#3f51b5",
+        light: "#F0EBD8",
+        main: "#3E5C76",
+        dark: "#bdd9e9"
       },
       secondary: {
-        main: "#f50057",
+        light: "#748CAB",
+        main: "#1D2D44",
+        dark: "#0D1321"
       },
     },
   });

@@ -6,7 +6,7 @@ const About: FC<any> = (): ReactElement => {
     <Box
       sx={{
         flexGrow: 1,
-        backgroundColor: "whitesmoke",
+        backgroundColor: "primary.main",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",

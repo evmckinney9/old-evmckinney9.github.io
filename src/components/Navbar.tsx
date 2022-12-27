@@ -29,7 +29,7 @@ const Navbar: FC = (): ReactElement => {
       sx={{
         width: "100%",
         height: "auto",
-        backgroundColor: "secondary.dark",
+        backgroundColor: "primary.light",
       }}
     >
       <Container maxWidth="xl">
@@ -37,12 +37,13 @@ const Navbar: FC = (): ReactElement => {
           <Typography
             variant="h6"
             noWrap
+            color="secondary.dark"
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
             }}
           >
-            Starter App
+            Evan McKinney
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
@@ -78,7 +79,7 @@ const Navbar: FC = (): ReactElement => {
                   key={page.key}
                   component={NavLink}
                   to={page.path}
-                  color="black"
+                  color="secondary.dark"
                   underline="none"
                   variant="button"
                 >
